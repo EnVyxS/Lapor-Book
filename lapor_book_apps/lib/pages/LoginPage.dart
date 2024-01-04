@@ -111,12 +111,13 @@ class LoginPageState extends State<LoginPage> {
     );
   }
 
-  void login() async {
+void login() async {
   setState(() {
     _isLoading = true;
   });
 
   try {
+
     await _auth.signInWithEmailAndPassword(
         email: email!, password: password!);
 
