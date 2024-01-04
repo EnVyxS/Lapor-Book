@@ -19,7 +19,10 @@ class Laporan{
   required this.instansi, 
   required this.nama, 
   required this.status, 
-  required this.tanggal, 
+  required this.tanggal,
+  required this.gambar, 
+  required this.deskripsi,
+  required this.komentar,
   required this.maps});
 
 

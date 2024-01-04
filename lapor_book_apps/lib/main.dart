@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:lapor_book_apps/firebase_options.dart';
 import 'package:lapor_book_apps/pages/AddFormPage.dart';
+import 'package:lapor_book_apps/pages/DetailPage.dart';
 import 'package:lapor_book_apps/pages/SplashPage.dart';
 import 'package:lapor_book_apps/pages/LoginPage.dart';
 import 'package:lapor_book_apps/pages/RegisterPage.dart';
@@ -22,7 +23,7 @@ void main() async {
       '/register': (context) => const RegisterPage(),
       '/dashboard': (context) => const DashboardPage(),
       '/add': (context) => const AddFormPage(),
-      // '/detail': (context) => DetailPage(),
+      '/detail': (context) => const DetailPage(),
     },
   ));
 }
